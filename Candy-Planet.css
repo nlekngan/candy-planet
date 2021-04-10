@@ -1,0 +1,428 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:white;
+}
+/*header*/
+#outer{
+	background:;
+	width:100%;
+	height:2760px;
+	margin: 0 auto;
+}
+.header{
+	width:100%;
+	height:70px;
+	background:none;
+	border-bottom:2px solid #c15050;
+}
+.menu{
+	width:40%;
+	height:70px;
+	background:none;
+	float:left;
+	margin-top:10px;
+}
+.menu ul{
+	list-style:none;
+}	
+.menu ul li{
+	display:inline-block;
+	margin-left:15px;
+	font-family:'Fredoka One', cursive;
+}
+.menu ul li a{
+	font-size:18px;
+	color:#c15050;
+	text-decoration:none;
+}
+.logo{
+	width:20%;
+	height:50px;
+	background:none;
+	float:left;
+	text-align:center;
+	margin-top:7px;
+}
+.logo a{
+	text-decoration:none;
+	font-size:30px;
+	color:#c15050;
+	line-height:28px;
+	font-family:'Fredoka One', cursive;
+	letter-spacing:2px;
+}
+.account{
+	width:30%;
+	height:50px;
+	float:right;
+	margin-top:10px;
+	margin-right:30px
+	 
+}
+.account ul{
+	list-style:none;
+}
+.account ul li{
+	display:inline-block;
+	margin-right:15px;
+	font-family:'Fredoka One', cursive;
+	float:right;
+}
+.account ul li a{
+	font-size:18px;
+	color:#c15050;
+	text-decoration:none;
+}
+/*body*/
+.main{
+	width:100%;
+	height:1200px;
+	background:none;
+	margin-top:10px;
+}
+.main img{
+	width:1000px;
+	height:600px;
+	padding-left:487px;
+	padding-bottom:10px;
+}
+.shop-now{
+	width:200px;
+	height:50px;
+	background:#0C9;
+	border:3px solid #069;
+	margin:0 auto;
+	text-align:center;
+}
+.order{
+	width:200px;
+	height:20px;
+	margin-top:14px;
+}
+.order a{
+	font-family:'Fredoka One', cursive;
+	color:#939;
+	font-size:20px;
+	text-decoration:none;
+}
+.products{
+	background:#eac8af;
+	width:100%;
+	height:600px;
+	border-top:20px solid white;
+}
+
+.line{
+	width:80%;
+	height:500px;
+	margin:0 auto;
+	border:3px solid #c15050;
+	margin-top:50px;
+	background:#FFC;
+	
+}
+.text{
+	background:none;
+	width:210px;
+	height:50px;
+	margin-left:205px;
+	padding-top:10px;
+}
+.text p{
+	font-family:'Fredoka One', cursive;
+	font-size:19px;
+	color:#c15050;
+	text-align:center;
+}
+.box{
+	width:85%;
+	height:400px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.box-1{
+	width:25%;
+	height:290px;
+	float:right;
+	margin-right:70px;
+	margin-top:5px;
+	border:2px solid grey;
+	
+}
+.image{
+	width:100%;
+	height:290px;
+	background:black;
+}
+.image img{
+	width:100%;
+	height:290px;
+	float:right;
+}
+.text-1{
+	width:25%;
+	height:50px;
+	float:right;
+	margin-right:70px;
+	border:2px solid #c15050;
+	margin-top:20px;
+	background:#fad586;
+}
+.box-5{
+	width:70%;
+	height:30px;
+	text-align:center;
+	margin-left:50px;
+	margin-top:10px;
+}
+.box-5 a{
+	text-decoration:none;
+	color:#c64756;
+	font-family:'Fredoka One', cursive;
+	font-size:22px;
+}
+.about{
+	width:100%;
+	height:600px;
+	background:none;
+	margin-top:110px;
+}
+.left{
+	width:51%;
+	height:560px;
+	background:white	;
+	border:20px solid #0C9;
+	float:left;
+}
+.text-2{
+	width:60%;
+	height:400px;
+	background:white;
+	text-align:justify;
+	font-family:'Fredoka One', cursive;
+	margin:0 auto;
+	color:#ff8882;
+	margin-top:79px
+}
+.text-2 h2{
+	text-align:center;
+	font-size:30px;
+}
+.text-2 hr{
+	width:50px;
+	color:#ff8882;
+}
+.text-2 p{
+	font-size:22px;
+}
+	
+.right{
+	width:46%;
+	height:600px;
+	background:white;
+	float:right;
+}
+.hinh{
+	width:100%;
+	height:600px;
+	float:right;
+}
+.hinh img{
+	width:100%;
+	height:600px;
+}
+.address{
+	width:99.5%;
+	height:75px;
+	background:#eeebdd;
+	border:5px solid #5f939a;
+	margin-top:20px;
+}
+.places{
+	width:80%;
+	height:100%;
+	border-right:5px solid #5f939a;
+	float:left;
+}
+.text-3{
+	width:30%;
+	height:50%;
+	text-align:center;
+	margin:0 auto;
+	margin-top:23px;
+}
+.text-3 a{
+	font-family:'Fredoka One', cursive;
+	font-size:24px;
+	text-decoration:none;
+	color:#bb8082;
+	letter-spacing:7px;
+}
+.map{
+	width:9.8%;
+	height:100%;
+	border-right:5px solid #5f939a;
+	float:left;
+}
+.text-4{
+	width:50%;
+	height:40%;
+	text-align:center;
+	margin:0 auto;
+	margin-top:23px;
+}
+.text-4 a{
+	font-family:'Fredoka One', cursive;
+	font-size:24px;
+	text-decoration:none;
+	color:#bb8082;
+	letter-spacing:2px;
+}
+.phone{
+	width:9.6%;
+	height:100%;
+	float:left;
+}
+.info{
+	width:99.5%;
+	height:300px;
+	background:white;
+	border:5px solid grey;
+	margin-top:20px;
+}
+.contact{
+	width:50%;
+	height:50px;
+	margin:0 auto;
+	padding-top:20px;
+	text-align:center;
+}
+.contact h2{
+	font-family:'Fredoka One', cursive;
+	font-size:28px;
+	color:grey;
+}
+.text-5 {
+	width:70%;
+	height:50%;
+	margin:0 auto;
+	margin-top:20px;
+}
+.outer-1{
+	width:80%;
+	height:90%;
+	border:5px solid white;
+	background:pink;
+	margin:0 auto;
+}
+.name{
+	width:30%;
+	height:70%;
+	border-bottom:3px solid grey;
+	float:left;
+	margin-right:20px;
+	margin-left:35px;
+}
+.name p{
+	font-family:'Fredoka One', cursive;
+	font-size:18px;
+	color:grey;
+}
+.phone-number{
+	width:30%;
+	height:70%;
+	border-bottom:3px solid grey;
+	float:left;
+	margin-right:20px
+}
+.phone-number p{
+	font-family:'Fredoka One', cursive;
+	font-size:18px;
+	color:grey;
+}
+.mail{
+	width:30%;
+	height:70%;
+	border-bottom:3px solid grey;
+	float:left;
+	margin-right:20px;
+}
+.mail p{
+	font-family:'Fredoka One', cursive;
+	font-size:18px;
+	color:grey;
+}
+/*footer*/
+.footer {
+	width:100%;
+	height:300px;
+	background:#194350;
+	margin-top:20px;
+}
+.outer-2{
+	width:80%;
+	height:90%;
+	margin:0 auto;
+}
+.logo-1{
+	width:25%;
+	height:95%;
+	float:left;
+}
+.logo-img{
+	width:90%;
+	height:50%;
+	text-align:center;
+	float:right;
+	margin-top:100px;
+}
+
+.logo-img a{
+	text-decoration:none;
+	font-size:50px;
+	color:white;
+	line-height:50px;
+	font-family:'Fredoka One', cursive;
+}
+.social{
+	width:75%;
+	height:95%;
+	float:left;
+}
+.box-icon{
+	width:100%;
+	height:30%;
+	margin-top:120px;
+	
+}
+.social-2{
+	width:35%;
+	height:50%;
+	border:3px solid white;
+	float:left;
+	margin-right:20px;
+	text-align:center;
+}
+.box-text{
+	width:90%;
+	height:30%;
+	margin-top:10px;
+}
+.box-text a{
+	font-family:'Fredoka One', cursive;
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+	
+
+
+	
+
+	
+	
+
+	
+
+
+	
